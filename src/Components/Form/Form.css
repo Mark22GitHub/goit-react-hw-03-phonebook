@@ -1,0 +1,46 @@
+.ContactForm {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  padding: 10px;
+}
+
+.formBtn {
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+  font-size: inherit;
+  font-weight: 500;
+  border-radius: 3px;
+  background-color: white;
+}
+.formBtn:hover {
+  cursor: pointer;
+  background: rgb(66, 234, 97);
+}
+
+input {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: inherit;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  margin-left: 15px;
+
+  background-color: white;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover {
+  cursor: pointer;
+  background: rgb(255, 100, 100);
+}
+
+li {
+  margin-bottom: 10px;
+}
